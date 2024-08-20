@@ -1,12 +1,17 @@
 {
-  "name": "publish-react-component-with-nextjs",
+  "name": "an-example-react-package-built-with-nextjs-tooling",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/exports.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "next:dev": "next dev",
+    "next:build": "next build",
+    "next:start": "next start",
+    "next:lint": "next lint",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "react": "^18",
