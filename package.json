@@ -1,6 +1,6 @@
 {
   "name": "an-example-react-package-built-with-nextjs-tooling",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/exports.js",
   "files": [
     "dist"
