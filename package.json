@@ -4,7 +4,8 @@
   "main": "./dist/exports.js",
   "files": ["./dist"],
   "exports": {
-    ".": "./dist/exports.js"
+    ".": "./dist/exports.js", 
+    "./client": "./dist/export-client.js"
   }, 
   "scripts": {
     "next:dev": "next dev",
