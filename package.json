@@ -1,6 +1,6 @@
 {
   "name": "hsciifontlib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/export-client.js",
   "files": [
     "./dist"
