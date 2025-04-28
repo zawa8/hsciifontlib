@@ -1,12 +1,12 @@
 {
-  "name": "an-example-react-package-built-with-nextjs-tooling",
-  "version": "0.4.1",
-  "main": "./dist/exports.js",
+  "name": "hsciifontlib",
+  "version": "0.0.1",
+  "main": "./dist/export-client.js",
   "files": [
     "./dist"
   ],
   "exports": {
-    ".": "./dist/exports.js",
+	".": "./dist/exports.js",
     "./client": "./dist/export-client.js"
   },
   "scripts": {
@@ -19,7 +19,8 @@
   },
   "peerDependencies": {
     "react": ">=18",
-    "react-dom": ">=18"
+    "react-dom": ">=18",
+    "react-select": "^5.10.1"
   },
   "devDependencies": {
     "react": "^18",

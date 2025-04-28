@@ -24,6 +24,5 @@
   "include": [
     "src/exports.ts", 
     "src/export-client.ts",
-  ], 
-  
+   ],  
 }

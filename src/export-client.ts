@@ -1,2 +1,2 @@
 "use client"
-export * from "./library/MyClientComponent";
+export * from "./library/hsciifontpicker";
