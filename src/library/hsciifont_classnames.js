@@ -1,5 +1,6 @@
-import * as hsciifonts from "./hsciifonts";
+//import * as hsciifonts from "./hsciifonts";
 //import { hsciifonts } from "./hsciifonts";
+const hsciifonts = require('./hsciifonts.js');
 
 export const hsciifont_classnames = {
       binarywenglosoftw8asc: hsciifonts.allhfonts.binarywenglosoftw8asc.className,
