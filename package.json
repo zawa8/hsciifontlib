@@ -6,8 +6,7 @@
     "./dist"
   ],
   "exports": {
-    ".": "./dist/exports.js",
-    "./client": "./dist/export-client.js"
+    ".": "./dist/export-client.js"
   },
   "scripts": {
     "next:dev": "next dev",
